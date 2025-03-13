@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import os
 
 def app():
+    st.title('Converse com o Palhaço')
     st.markdown(
         """
         <h1 style="text-align: center;">Converse com o palhaço 🤡</h1>
