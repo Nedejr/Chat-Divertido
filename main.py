@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 
 def app():
-    st.title('Converse com o Palhaço')
+    st.set_page_config(page_title="Meu Título Personalizado", page_icon="🤡", layout="wide")
     st.markdown(
         """
         <h1 style="text-align: center;">Converse com o palhaço 🤡</h1>
